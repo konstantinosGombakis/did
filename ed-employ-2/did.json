@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:konstantinosgombakis.github.io:did:ed-employ-2",
+  "verificationMethod": [
+    {
+      "id": "did:konstantinosgombakis.github.io:did:ed-employ-2#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:konstantinosgombakis.github.io:did:ed-employ-2",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "Oh7y5kX6jm5dtU2lt78QFTZ1DV0pWUXwkghAEVbpghg=",
+        "y": "g/9qhTJnV+/u5r4iZWoENdx6LHSMInq9okCaqLkGMiQ="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:konstantinosgombakis.github.io:did:ed-employ-2#owner"
+  ],
+  "assertionMethod": [
+    "did:web:konstantinosgombakis.github.io:did:ed-employ-2#owner"
+  ]
+}

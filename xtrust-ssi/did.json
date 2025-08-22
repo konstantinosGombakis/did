@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:konstantinosgombakis.github.io:did:xtrust-ssi",
+  "verificationMethod": [
+    {
+      "id": "did:konstantinosgombakis.github.io:did:xtrust-ssi#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:konstantinosgombakis.github.io:did:xtrust-ssi",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "Ep5hnD70DVA9rhPpCRzkzNE1maL+7AGh2xcptxvitik=",
+        "y": "KYQceMYp6Z5iT2YSSuWVxbmajODNInOPoLBjePX4ssg="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:konstantinosgombakis.github.io:did:xtrust-ssi#owner"
+  ],
+  "assertionMethod": [
+    "did:web:konstantinosgombakis.github.io:did:xtrust-ssi#owner"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:konstantinosgombakis.github.io:did:kostas-gompakis-ed",
+  "verificationMethod": [
+    {
+      "id": "did:konstantinosgombakis.github.io:did:kostas-gompakis-ed#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:konstantinosgombakis.github.io:did:kostas-gompakis-ed",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "+9bemNeG2h28y5VZuggoYF5Ac9ScvPCHGEI8qcvajHE=",
+        "y": "uo6NTO4uegv27DtuRiod/N93yldQGW+ETMh4zZAQCb0="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:konstantinosgombakis.github.io:did:kostas-gompakis-ed#owner"
+  ],
+  "assertionMethod": [
+    "did:web:konstantinosgombakis.github.io:did:kostas-gompakis-ed#owner"
+  ]
+}
