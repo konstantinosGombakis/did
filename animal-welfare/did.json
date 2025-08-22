@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:konstantinosgombakis.github.io:did:animal-welfare",
+  "verificationMethod": [
+    {
+      "id": "did:konstantinosgombakis.github.io:did:animal-welfare#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:konstantinosgombakis.github.io:did:animal-welfare",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "WI9fUDtwHuzzWwkAUS6mSLdup6QXBJnYg/g0IXzfkZI=",
+        "y": "rJqBSS6t8ZrcAbdT3BnrApD4JTU2Bf0KyyGQtXxK6H0="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:konstantinosgombakis.github.io:did:animal-welfare#owner"
+  ],
+  "assertionMethod": [
+    "did:web:konstantinosgombakis.github.io:did:animal-welfare#owner"
+  ]
+}

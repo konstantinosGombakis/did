@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:fiware.github.io:tutorials.Step-by-Step:animal-welfare",
+  "id": "did:web:konstantinosgombakis.github.io:did:alice",
   "verificationMethod": [
     {
-      "id": "did:fiware.github.io:tutorials.Step-by-Step:animal-welfare#owner",
+      "id": "did:konstantinosgombakis.github.io:did:alice#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:fiware.github.io:tutorials.Step-by-Step:animal-welfare",
+      "controller": "did:web:konstantinosgombakis.github.io:did:alice",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "Nd3DeQ7G/1pTeYM6viWK6plbSD9E7cA9C2ONG9qG3CQ=",
-        "y": "LuMt0dFWni1/fs/VqfjNOHAZT3PWGxKU8kUlLffGtjM="
+        "x": "RSCdPl2D+HKUV5/7R8NmYbgnGjT2fdYRpkf4MxpFr9Y=",
+        "y": "IzjYJqoVpxw/hjLeVpcHFTadqSksk3V9hFTxnuO2DAU="
       }
     }
   ],
   "authentication": [
-    "did:web:fiware.github.io:tutorials.Step-by-Step:animal-welfare#owner"
+    "did:web:konstantinosgombakis.github.io:did:alice#owner"
   ],
   "assertionMethod": [
-    "did:web:fiware.github.io:tutorials.Step-by-Step:animal-welfare#owner"
+    "did:web:konstantinosgombakis.github.io:did:alice#owner"
   ]
 }
